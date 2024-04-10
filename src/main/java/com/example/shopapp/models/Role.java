@@ -22,4 +22,7 @@ public class Role {
 
     @OneToMany(mappedBy = "role")
     private Set<User> userSet;
+
+    public static String ADMIN = "ADMIN";
+    public static String USER = "USER";
 }
